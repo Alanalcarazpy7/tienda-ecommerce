@@ -1,0 +1,6 @@
+//Mostrar todos los productos
+GET http://localhost:8000/products
+
+###
+//Mostrar un producto por su ID
+GET http://localhost:8000/products/3

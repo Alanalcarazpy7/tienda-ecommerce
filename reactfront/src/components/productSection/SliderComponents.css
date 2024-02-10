@@ -1,0 +1,13 @@
+.range-primary {
+  -webkit-appearance: none;
+  border: 5px solid #ddd;
+  background-color: #ddd;
+}
+
+.progress-bar {
+  position: relative;
+  top: -5px;
+  height: 5px;
+  border-radius: 0;
+  transition: background 0.3s;
+}
