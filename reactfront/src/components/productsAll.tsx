@@ -43,6 +43,11 @@ const ProductsAll = () => {
   useEffect(() => {
     getProducts();
   }, []);
+
+  const imagenejemplo=(imagen:string)=>{
+    console.log("imagen",imagen)
+  }
+  
   return (
     <div className='flex flex-wrap justify-center'>
         {loading ? (
